@@ -1,5 +1,9 @@
 # react_query_starwars_app
 
+- deployed link: https://react-query-starwars-app.vercel.app/
+- starwars api: https://swapi.dev/
+- react query library: https://github.com/tannerlinsley/react-query 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

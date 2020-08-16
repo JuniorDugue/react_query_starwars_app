@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect } from "react";
 
-function NavBar() {
+function NavBar({ setPage }) {
   return (
     <nav>
-      <button>Planets</button>
-      <button>People</button>
+      <button onClick={() => setPage("planets")}>Planets</button>
+      <button onClick={() => setPage("people")}>People</button>
     </nav>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
