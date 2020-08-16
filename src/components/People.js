@@ -8,4 +8,4 @@ function People() {
   )
 }
 
-export default People<h2>
+export default People;
