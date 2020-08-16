@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Star Wars Information</h1>
+      <h1><span role="img" aria-label="star emoji">✨</span>Star Wars<span role="img" aria-label="star emoji">✨</span></h1>
       <NavBar setPage={setPage}/>
       <div className="content">{page === "planets" ? <Planets /> : <People />}</div>
     </div>
