@@ -8,6 +8,7 @@ body {
   color: #ddd;
   text-align: center;
 
+  // App component styling
   .App {
     margin: 0 auto;
     width: 960px;
@@ -20,6 +21,7 @@ body {
     }
   }
 
+  // NavBar component styling
   button {
     margin: 0 10px;
     background: transparent;
@@ -32,6 +34,24 @@ body {
     &:hover {
       color: #fff;
       border-color: #fff;
+    }
+  }
+
+  // Planets component styling
+  .card {
+    padding: 8px 16px;
+    background: #1b1b1b;
+    margin: 16px 0;
+    border-radius: 20px;
+
+    p {
+      margin: 6px 0;
+      color: #999;
+    }
+
+    h3 {
+      margin: 10px 0;
+      color: #ffff57;
     }
   }
 }

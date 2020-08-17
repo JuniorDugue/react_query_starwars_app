@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./components/NavBar";
 import People from "./components/People";
-import Planets from "./components/Planets";
+import Planets from "./components/planets/Planets";
 
 function App() {
   const [page, setPage] = useState("planets");
