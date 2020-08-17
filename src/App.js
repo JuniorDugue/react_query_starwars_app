@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavBar from "./components/NavBar";
-import People from "./components/People";
+import People from "./components/people/People";
 import Planets from "./components/planets/Planets";
 
 function App() {
